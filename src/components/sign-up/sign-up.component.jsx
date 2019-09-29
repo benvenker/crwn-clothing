@@ -5,7 +5,6 @@ import FormInput from '../form-input/form-input.component';
 import CustomButton from '../custom-button/custom-button.component';
 
 import { auth, createUserProfileDocument } from '../../firebase/firebase.utils';
-import { tsConstructorType } from '@babel/types';
 
 class SignUp extends React.Component {
   constructor() {
