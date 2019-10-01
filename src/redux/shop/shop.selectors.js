@@ -16,7 +16,7 @@ export const selectCollections = createSelector(
 );
 
 export const selectCollection = collectionUrlParam => {
-  createSelector(
+  return createSelector(
     [selectCollections],
     collections =>
       collections.find(
